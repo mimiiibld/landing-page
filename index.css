@@ -1,50 +1,161 @@
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+    font-family: Roboto, Arial, sans-serif;
     margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header, .first{
-background-color: #1f2937;
-color : white;
-};
-
-footer{
-background-color: #1f2937;
-}
-
-.first{
-    
-}
-
-.squarepicture{
-  width: 150px;
-  height: auto;
-}
-
-.photos{
+    padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: #1f2937;
+}
+
+a {
+    color: #f9faf8;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;    
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+button {
+    background-color: #2882f6;
+}
+.header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 200px;
-    text-align: center;
+    padding: 20px;
 }
 
-h1{
-    padding-top : 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-h2{
-text-align: center;
-padding-top: 20px;
-padding-bottom: 0px;
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px;
+    display: flex;
 }
 
-.third{
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px;
+    gap: 20px;
+}
+
+.side {
+    color: #f9faf8;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.left-side {
+    text-align: left;
+}
+
+.img-side {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.grid-logos {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.html, .css, .js, .python {
+    width: 150px;
+    height: 150px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.centertext{
+  text-align: center;
+  font-size: large;
+}
+
+.citation-section {
     background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
     text-align: center;
-    padding: 200px;
+}
+
+button {
+    background-color: #2882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: grab;
+}
+
+.cta button {
+    border: #f9faf8 2px solid;
+}
+
+.cta-content {
+    background-color: #2882f6;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 14px;
+    color: #f9faf8;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.left-cta {
+    text-align: left;
+}
+
+.right-cta{
+padding: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #f9faf8;
+    font-size: large;
 }

@@ -1,81 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <title>Landing page</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!--le header du site-->
     <header>
-        <h3>Header logo</h3>
-        <a href="index.html"header link one></a>
-        <a href="index.html"header link two></a>
-        <a href="index.html"header link three></a>
+        <nav class="header">
+            <div class="logo">@mimiiibld</div>
+            <div class="right-header">
+                <a href="https://github.com/mimiiibld" target="_blank">GitHub</a>
+            </div>
+        </nav>
+        <div class="side">
+            <div class="left-side">
+                <h1>Mon Portfolio</h1>
+                <p>Bonjour je m'appelle Mila et voici mon portfolio.</p>
+                <p>Avec un diplôme en informatique et réseaux, je suis disponible si besoin.</p>
+                <p>N'hésitez-pas à me contacter pour plus de renseignement!</p>
+            <button>Contactez-moi!</button>
+            </div>
+            <div class="right-side">
+            <img class="img-side" src="https://t3.ftcdn.net/jpg/07/64/96/10/360_F_764961063_hY6DwWXEiW4sUkqRvdb1IZUVjo8lGLDk.jpg" alt="some code" placeholder="some code">
+            </div>
+        </div>
     </header>
-
-    <!--la premiere partie de la page-->
-    <div class="first">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button>Sign up</button>
-        <img src="" alt="This is a placeholder for an image">
-    </div>
-
-    <!--la deuxieme partie de la page-->
-    <div class="second">
-        <h2>Some random information</h2>
-
-        <div class="photos">
-<!--1-->
-<div>
-<img class="squarepicture" src="https://img.freepik.com/photos-premium/forme-contour-carre-autocollant-png-fond-transparent_53876-991818.jpg?semt=ais_hybrid&w=740" alt="blue square">
-<p>This is some subtext</p>
-</div>
-
-<!--2-->
-<div>
-<img class="squarepicture" src="https://img.freepik.com/photos-premium/forme-contour-carre-autocollant-png-fond-transparent_53876-991818.jpg?semt=ais_hybrid&w=740" alt="blue square">
-<p>This is some subtext</p>
-</div>
-
-<!--3-->
-<div>
-<img class="squarepicture" src="https://img.freepik.com/photos-premium/forme-contour-carre-autocollant-png-fond-transparent_53876-991818.jpg?semt=ais_hybrid&w=740" alt="blue square">
-<p>This is some subtext</p>
-</div>
-
-<!--4-->
-<div>
-<img class="squarepicture" src="https://img.freepik.com/photos-premium/forme-contour-carre-autocollant-png-fond-transparent_53876-991818.jpg?semt=ais_hybrid&w=740" alt="blue square">
-<p>This is some subtext</p>
-</div>
-</div>
-</div>
-
-<!--la troisieme partie de la page-->
-<div class="third">
-    <p>Bonjour je m'appelle Mila</p>
-    <p><strong>Mila</strong></p>
-</div>
-
-<!--la quatrieme partie de la page-->
-<div class="fourth">
-
-    <!--la partie bleu-->
-<div class="fourtblue">
-   <p><strong>Call to action</strong></p>
-   <br>
-   <p>Subscribe to the newsletter</p>
-
-   <button>Sign up</button>
-</div>
-</div>
-
-<!--le pied de page-->
-<div class="footer">
-    <p>copyright Mila @mimiiibld</p>
-</div>
+    <section class="features">
+        <h2>Mes connaissances :</h2>
+        <div class="grid-logos">
+         <div class="html">
+            <img src="https://cdn-icons-png.freepik.com/256/732/732212.png?semt=ais_incoming" title="html logo" alt="html logo">
+            <p class="centertext">HTML</p>
+         </div>
+         <div class="css">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" title="css logo" alt="css logo">
+            <p class="centertext">CSS</p>
+         </div>
+         <div class="js">
+            <img src="https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png" title="javascript logo" alt="javaScript logo">
+            <p class="centertext">JavaScript</p>
+         </div>
+         <div class="python">
+            <img src="https://img.freepik.com/premium-vector/python-icon_1181510-14.jpg?semt=ais_items_boosted&w=740" title="python logo" alt="python logo">
+            <p class="centertext">Python</p>
+         </div>
+        </div>
+    </section>
+    <section class="citation-section">
+        <blockcitation>Simple code, complex coffee order. <br> <p><strong>Mila</strong></p></blockcitation>
+    </section>
+    <section class="cta">
+        <div class="cta-content">
+            <div class="left-cta">
+            <h2>En savoir plus</h2>
+        <p>Vous avez un projet et vous aimeriez m'en parler ?</p>
+            </div>
+            <div class="right-cta">
+        <button>Me contacter</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 @mimiiibld</p>
+        </div>
+    </footer>
 </body>
 </html>
